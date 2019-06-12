@@ -1,0 +1,63 @@
+.call-fix-button {
+    background: rgb(255, 255, 255);
+    z-index: 999999;
+    position: fixed;
+    width: 160px;
+    height: 150px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 5px;
+    right: 50px;
+    bottom: 70px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    color: #3f3636;
+    border: 1px solid #aeaeae;
+}
+.call-fix-button p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.different-button {
+    color: #424040;
+}
+.different-button a {
+    color: #3a85eb;
+    text-decoration: inherit;
+}
+#Capa_1{
+animation: ring 2s ease infinite;
+transform-origin-x: 50%;
+transform-origin-y: 0px;
+transform-origin-z: initial;
+-webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+@keyframes ring {
+0%{transform:rotate(-15deg)}
+2%{transform:rotate(15deg)}
+4%{transform:rotate(-18deg)}
+6%{transform:rotate(18deg)}
+8%{transform:rotate(-22deg)}
+10%{transform:rotate(22deg)}
+12%{transform:rotate(-18deg)}
+14%{transform:rotate(18deg)}
+16%{transform:rotate(-12deg)}
+18%{transform:rotate(12deg)}
+20%,100%{transform:rotate(0deg)}
+}
+
+
+/*white background */ 
+
+.device-troubleshoot {
+    background: #fff;
+    box-shadow: 0 1px 5px rgba(85,85,85,.35);
+    padding: 20px;
+    min-height: 150px;
+}
